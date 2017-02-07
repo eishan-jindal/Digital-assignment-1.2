@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 and CSS</title>
+	<style>
+		body{
+			font-family: verdana;
+			margin: 0;
+			padding: 0;
+			color:#212121;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		#page{
+			width: 100%;
+			position: absolute;
+		}
+
+		#content{
+			margin: 50px;
+		}
+
+		#topnav{
+			width: 100%;
+			opacity: 1;	
+		}
+
+		#topnav>nav{
+			position: fixed;
+			width: 100%;
+			background-color: #212121;
+			top:0;
+		}
+		#topnav nav>a{
+			    display: inline-block;
+    			color: white;
+    			text-align: center;
+    			padding: 14px 16px;
+		}
+		#topnav nav a:hover{
+    				background-color: white;
+    				color:black;
+		}
+
+		footer{
+			background-color: #212121;
+			color: white;
+			text-align: center;
+			padding: 26px 16px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="page">
+
+	<div id="topnav">
+		<nav>
+			<a href="home.html">Home</a>
+			<a href="p.html">Physics</a>
+			<a href="c.html">Chemistry</a>
+			<a href="m.html">Maths</a>
+			<a href="contact.html">Contact</a>
+			<a href="about.html" style="float : right; background-color: black; color:white;">About</a>
+		</nav>
+	</div>
+
+	<figure>
+		<img src="media/thatsallfolks.jpg" alt="me" title="me" width="700px" height="700px" style="margin-top: 100px; margin-left: 31%; margin-right: 31%;">
+	</figure>
+
+
+		<div id="content" style="font-size: 25px;">
+			<p style="margin-left: 15%;">
+				<br><br><br>
+	      		This was my solution to the Second Question of my Digital Assignment 1. Submitted to Prof. Puviarasi G [SITE] 
+	        </p>
+		</div><!--End textual material-->
+
+		<footer>
+			&copy; Digital Assignment 1.2 by 15BIT0361. Applying styling through Native-hardcoded CSS.
+		</footer>
+
+	</div><!--End page-->
+</body>
+</html>

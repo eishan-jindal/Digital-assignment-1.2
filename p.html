@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 and CSS</title>
+	<style>
+		body{
+			font-family: verdana;
+			margin: 0;
+			padding: 0;color:#212121;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		#page{
+			width: 100%;
+			position: absolute;
+		}
+
+		#topnav{
+			width: 100%;
+			opacity: 1;	
+		}
+
+		#topnav>nav{
+			position: fixed;
+			width: 100%;
+			background-color: #212121;
+			top:0;
+		}
+		#topnav nav>a{
+
+			    display: inline-block;
+    			color: white;
+    			text-align: center;
+    			padding: 14px 16px;
+		}
+		#topnav nav a:hover{
+    				background-color: white;
+    				color:black;
+		}
+
+		#sidenav{
+			position: fixed;
+			margin-top: 47px;
+			background-color: teal;
+			color:white;
+			border: 1px double grey;
+			width:8%;
+			height: 100%;
+		}
+
+		#sidenav ul{
+			margin:0;
+			padding: 0;
+			list-style: none;
+
+		}
+
+		#sidenav li{
+			text-align: left;	
+		}
+
+		#sidenav li a{
+			padding: 16px 14px;
+			color:lightgrey;
+			display: block;
+
+		}
+
+		#sidenav li a:hover{
+			background-color: #4caf50;
+			color:white;
+		}
+
+		#tit{
+			margin-top: 47px;
+			margin-left: 8%;
+			background-color: indigo;
+			padding: 3px;
+			color:white;
+		}
+
+		#content{
+			margin-left: 9%;
+			margin-right: 9%;
+			margin-top: 2%;
+		}
+
+		footer{
+			background-color: #212121;
+			color: white;
+			text-align: center;
+			padding: 26px 16px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="page">
+
+	<div id="topnav">
+		<nav>
+			<a href="home.html">Home</a>
+			<a href="p.html" style="background-color: black; color:white;">Physics</a>
+			<a href="c.html">Chemistry</a>
+			<a href="m.html">Maths</a>
+			<a href="contact.html">Contact</a>
+			<a style="float: right;" href="about.html">About</a>
+		</nav>
+	</div>
+
+	<div id="sidenav">
+		<ul>
+			<li><a href="#">Topic 1</a></li>
+			<li><a href="#">Topic 2</a></li>
+			<li><a href="#">Topic 3</a></li>
+			<li><a href="#">Topic 4</a></li>
+			<li><a href="#">Topic 5</a></li>
+			<li><a href="#">Topic 6</a></li>
+			<li><a href="#">Topic 7</a></li>
+			<li><a href="#">Topic 8</a></li>
+			<li><a href="#">Topic 9</a></li>
+			<li><a href="#">Topic 10</a></li>
+			<li><a href="#">Topic 11</a></li>
+			<li><a href="#">Topic 12</a></li>
+			<div style="margin-left: 20px; margin-right: 20px; margin-top: 205px; font-size: 28px; "><li><hr>Physics</li></div>
+		</ul>
+	</div>
+
+	<div id="tit">
+		<h1 style="margin-left: 15px;">Topic : 1</h1>
+	</div>
+
+	<div id="vidcon">
+
+	</div>
+	
+<!--
+	<div id="pics">
+	<div class="img">
+	  <a target="_blank" href="p.html">
+	    <img src="media/physics.jpg" alt="Learn Physics" width="500" height="300px">
+	    <div class="desc">Physics</div>
+	  </a>
+	</div>
+
+	<div class="img">
+	  <a target="_blank" href="c.html">
+	    <img src="media/chem.jpg" alt="Learn Chemistry" width="500" height="300">
+	    <div class="desc">Chemistry</div>
+	  </a>
+	</div>
+
+	<div class="img">
+	  <a target="_blank" href="m.html">
+	    <img src="media/maths.jpg" alt="Learn Mathematics" width="500" height="300">
+	    <div class="desc">Mathematics</div>
+	  </a>
+	</div>
+	</div>
+	-->
+
+		<div id="content">
+
+			<video width="500px" height="400px" controls style="float: left;padding:4%;">
+			  <source src="media/greenday.mp4"" type="video/mp4">
+			</video>
+
+			<div id="text" style="padding: 50px; font-size: 18px;">
+			<p>
+	      		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at neque eu risus vehicula vulputate. Nam ornare fermentum tortor, et euismod lacus. Pellentesque imperdiet felis nec arcu egestas aliquam quis dignissim justo. In quis lacus at metus suscipit laoreet. Curabitur ac accumsan lacus, vel ultricies ante. In non velit tortor. Aliquam cursus elit dui, pretium maximus nunc euismod sit amet. Nulla feugiat finibus justo, sit amet vehicula lacus lacinia vitae. Duis blandit ultricies enim ut convallis. Donec lectus sem, blandit in mattis id, scelerisque et odio. Fusce non facilisis nisl. Donec accumsan mi mauris, vel dignissim purus ornare sit amet. Maecenas non tempor arcu.
+	        </p>
+	        <p>
+	        	In a euismod diam. Nunc et magna justo. Cras est mauris, facilisis et finibus ut, tristique vel turpis. Integer quis vestibulum nunc, id pulvinar tortor. Pellentesque accumsan est eu sapien auctor luctus. Vestibulum maximus eleifend pulvinar. Pellentesque neque dui, convallis a facilisis in, rutrum eget justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec convallis pharetra massa, quis porta ante elementum nec.
+	        </p>
+	        <p>
+	        	Sed iaculis dolor a condimentum vulputate. Sed feugiat semper magna, sit amet egestas nisi lacinia sed. Aenean ut est justo. Phasellus iaculis eros eu nunc commodo, vel suscipit metus convallis. Cras non lorem sed ligula feugiat fringilla. Maecenas a nunc a ex pulvinar venenatis. Nam egestas euismod magna non facilisis. Pellentesque dui mauris, aliquet vel urna ac, faucibus placerat purus. Fusce blandit ornare mi id viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent eleifend, lacus ut feugiat pretium, ipsum dolor ornare tellus, eu elementum enim diam vitae lectus. Nullam a posuere libero. Suspendisse potenti. Praesent dignissim vitae libero eu aliquet. Morbi ultricies tincidunt ex, in facilisis purus condimentum vel. Cras vitae velit id augue gravida scelerisque ut sed ipsum.
+	        </p>
+	        <p>
+	          	Cras aliquam commodo neque, eu placerat tortor interdum ac. Duis arcu orci, rhoncus nec felis eu, tempus pulvinar velit. Vestibulum sagittis justo vitae facilisis pharetra. Sed auctor ex non erat finibus, vitae fermentum odio feugiat. Pellentesque fringilla purus ac odio accumsan molestie. Nullam sed eros odio. Donec aliquam aliquam varius. Sed placerat lacus pretium, placerat dui quis, fringilla dui. Praesent commodo tristique leo ut feugiat. Integer consectetur sed ex vitae porta. Aenean vitae tempor ante. Nam pharetra a magna at ornare. Sed est nulla, vulputate non ante nec, porttitor volutpat elit. Mauris posuere facilisis lectus, vel euismod ipsum varius id. Cras venenatis molestie diam, sed rhoncus erat tempor blandit. Donec sed sapien libero.
+	        </p>
+	        <p>
+	        	In a euismod diam. Nunc et magna justo. Cras est mauris, facilisis et finibus ut, tristique vel turpis. Integer quis vestibulum nunc, id pulvinar tortor. Pellentesque accumsan est eu sapien auctor luctus. Vestibulum maximus eleifend pulvinar. Pellentesque neque dui, convallis a facilisis in, rutrum eget justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec convallis pharetra massa, quis porta ante elementum nec.
+	        </p>
+	        <p>
+	        	Sed iaculis dolor a condimentum vulputate. Sed feugiat semper magna, sit amet egestas nisi lacinia sed. Aenean ut est justo. Phasellus iaculis eros eu nunc commodo, vel suscipit metus convallis. Cras non lorem sed ligula feugiat fringilla. Maecenas a nunc a ex pulvinar venenatis. Nam egestas euismod magna non facilisis. Pellentesque dui mauris, aliquet vel urna ac, faucibus placerat purus. Fusce blandit ornare mi id viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent eleifend, lacus ut feugiat pretium, ipsum dolor ornare tellus, eu elementum enim diam vitae lectus. Nullam a posuere libero. Suspendisse potenti. Praesent dignissim vitae libero eu aliquet. Morbi ultricies tincidunt ex, in facilisis purus condimentum vel. Cras vitae velit id augue gravida scelerisque ut sed ipsum
+	        </p>
+	        <p>
+	        	In a euismod diam. Nunc et magna justo. Cras est mauris, facilisis et finibus ut, tristique vel turpis. Integer quis vestibulum nunc, id pulvinar tortor. Pellentesque accumsan est eu sapien auctor luctus. Vestibulum maximus eleifend pulvinar. Pellentesque neque dui, convallis a facilisis in, rutrum eget justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec convallis pharetra massa, quis porta ante elementum nec.
+	        </p>
+	        <p>
+	        	Sed iaculis dolor a condimentum vulputate. Sed feugiat semper magna, sit amet egestas nisi lacinia sed. Aenean ut est justo. Phasellus iaculis eros eu nunc commodo, vel suscipit metus convallis. Cras non lorem sed ligula feugiat fringilla. Maecenas a nunc a ex pulvinar venenatis. Nam egestas euismod magna non facilisis. Pellentesque dui mauris, aliquet vel urna ac, faucibus placerat purus. Fusce blandit ornare mi id viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent eleifend, lacus ut feugiat pretium, ipsum dolor ornare tellus, eu elementum enim diam vitae lectus. Nullam a posuere libero. Suspendisse potenti. Praesent dignissim vitae libero eu aliquet Morbi ultricies  tincidunt ex, in facilisis purus condimentum vel. Cras vitae velit id augue gravida scelerisque ut sed ipsum.
+	        </p>
+	        <p>
+	            Cras aliquam commodo neque, eu placerat tortor interdum ac. Duis arcu orci, rhoncus nec felis eu, tempus pulvinar velit. Vestibulum sagittis justo vitae facilisis pharetra. Sed auctor ex non erat finibus, vitae fermentum odio feugiat. Pellentesque fringilla purus ac odio accumsan molestie. Nullam sed eros odio. Donec aliquam aliquam varius. Sed placerat lacus pretium, placerat dui quis, fringilla dui. Praesent commodo tristique leo ut feugiat. Integer consectetur sed ex vitae porta. Aenean vitae tempor ante. Nam pharetra a magna at ornare. Sed est nulla, vulputate non ante nec, porttitor volutpat elit. Mauris posuere facilisis lectus, vel euismod ipsum varius id. Cras venenatis molestie diam, sed rhoncus erat tempor blandit. Donec sed sapien libero.</p>
+	        </p>
+	        <p>
+	        	In a euismod diam. Nunc et magna justo. Cras est mauris, facilisis et finibus ut, tristique vel turpis. Integer quis vestibulum nunc, id pulvinar tortor. Pellentesque accumsan est eu sapien auctor luctus. Vestibulum maximus eleifend pulvinar. Pellentesque neque dui, convallis a facilisis in, rutrum eget justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec convallis pharetra massa, quis porta ante elementum nec.
+	        </p>
+	        </div><!--End text material-->
+		</div><!--End content material-->
+
+		<footer>
+			&copy; Digital Assignment 1.2 by 15BIT0361. Applying styling through Native-hardcoded CSS.
+		</footer>
+
+	</div><!--End page-->
+</body>
+</html>
